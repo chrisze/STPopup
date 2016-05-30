@@ -79,6 +79,11 @@ typedef NS_ENUM(NSUInteger, STPopupTransitionStyle) {
 @property (nonatomic, strong, readonly) UIView *containerView;
 
 /**
+ Verfical offset added to containerView.frame.y origin.
+ */
+@property (nonatomic, assign) CGFloat containerVerticalOffset;
+
+/**
  *  The top view controller in the popup's controller stack.
  */
 @property (nonatomic, strong, readonly) UIViewController *topViewController;
